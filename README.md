@@ -13,7 +13,7 @@ JEECG BOOT 低代码开发平台（Vue3前端）
 
 ## 简介
 JeecgBoot-Vue3采用 Vue3.0、Vite、 Ant-Design-Vue3、TypeScript 等新技术方案，包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能。
-是JeecgBoot低代码平台的vue3技术栈的全新UI版本，功能强于vue2版。
+是采用Vben实现的 JeecgBoot低代码平台的全新vue3版本。
  
 > 强大的代码生成器让前后端代码一键生成! JeecgBoot引领低代码开发模式(OnlineCoding-> 代码生成-> 手工MERGE)， 帮助解决Java项目70%的重复工作，让开发更多关注业务。既能快速提高效率，节省成本，同时又不失灵活性
 
@@ -41,14 +41,15 @@ JeecgBoot-Vue3采用 Vue3.0、Vite、 Ant-Design-Vue3、TypeScript 等新技术�
 
 -   官方文档：[http://vue3.jeecg.com](http://vue3.jeecg.com)
 -   官方网站： [http://www.jeecg.com](http://www.jeecg.com)
--   在线演示：[http://boot3.jeecg.com](http://boot3.jeecg.com)
+-   在线演示：[低代码演示](http://boot3.jeecg.com) | [敲敲云零代码](https://www.qiaoqiaoyun.com)
 -   快速入门：[常见问题](http://vue3.jeecg.com/2426559) | [入门视频](https://www.bilibili.com/video/BV1V34y187Y9 "入门视频") |  [ 代码生成](http://vue3.jeecg.com/2677352)
 -   QQ交流群：683903138
 
 ## 安装与使用
 
 
- > 环境要求: Node.js版本要求12.x以上，且不能为13.x版本，这里推荐14.x及以上。
+ > 环境要求: 版本要求Node 14.18+ / 16+ 版本以上，不再支持 Node 12 / 13 / 15。
+ > 建议使用pnpm，如果使用yarn,请用Yarn1.x版本，否则依赖可能安装不上。
 
   
 - Get the project code
@@ -173,6 +174,7 @@ VITE_GLOB_DOMAIN_URL=http://jeecg-boot-gateway:9999
 
 *   [JeecgBoot-Vue3文档](http://vue3.jeecg.com)
 *   [Vue3 文档](https://cn.vuejs.org/)
+*   [Vben文档](https://doc.vvbin.cn)
 *   [Ant-Design-Vue](https://www.antdv.com/docs/vue/introduce-cn/)
 *   [TypeScript](https://www.typescriptlang.org/)
 *   [Vue-router](https://router.vuejs.org/zh)
@@ -182,7 +184,6 @@ VITE_GLOB_DOMAIN_URL=http://jeecg-boot-gateway:9999
 *   [Vue-RFCS](https://github.com/vuejs/rfcs)
 *   [Vue2 迁移到 3](https://v3.vuejs.org/guide/migration/introduction.html)
 *   [vxetable文档](https://vxetable.cn)
-*   [~~Vben文档~~](https://vvbin.cn/doc-next)
 *   [~~WindiCss~~](https://windicss.netlify.app/)
 
 
